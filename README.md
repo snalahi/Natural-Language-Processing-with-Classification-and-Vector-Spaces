@@ -19,12 +19,12 @@ Things to be done in Text Preprocessing =>
 1. Eliminate handles(@) and URLs
 2. Tokenize the string into words. 
 3. Remove stop words like "and, is, a, on, etc." and punctuations.
-4. Stemming- or convert every word to its stem. Like dancer, dancing, danced, becomes 'danc'. You can use porter stemmer to take care of this. 
+4. Stemming- or convert every word to its stem. Like dancer, dancing, danced, becomes 'danc'. You can use porter stemmer to take care of this. Porter's Stemmer Algorithm: https://www.geeksforgeeks.org/introduction-to-stemming/ 
 5. Convert all your words to lower case. 
 
 For example the following tweet "@YMourri and @AndrewYNg are tuning a GREAT AI model at https://deeplearning.ai!!!" after preprocessing becomes [tun,great,ai,model]. 
 
-
+***matplotlib.pyplot is a collection of functions that make matplotlib work like MATLAB.
 
 
 
