@@ -24,7 +24,9 @@ Things to be done in Text Preprocessing =>
 
 For example the following tweet "@YMourri and @AndrewYNg are tuning a GREAT AI model at https://deeplearning.ai!!!" after preprocessing becomes [tun,great,ai,model]. 
 
-***matplotlib.pyplot is a collection of functions that make matplotlib work like MATLAB.
+matplotlib.pyplot is a collection of functions that make matplotlib work like MATLAB.
+
+"autopct" in pyplot pie chart enables you to display the percent value using Python string formatting. autopct='%.1f%%' prints all the numbers before decimal point, then the decimal point, then one floating number and finally prints a percentage (%) by inserting two modulo signs after the formatter.
 
 
 
