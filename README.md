@@ -1,2 +1,2 @@
 # Natural-Language-Processing-with-Classification-and-Vector-Spaces
-Natural Language Processing Specialization offered by DeepLearning.AI
+Sentiment Analysis is done here using logistic regression and naive Bayes classifiers.
