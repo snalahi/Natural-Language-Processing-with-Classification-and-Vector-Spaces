@@ -28,6 +28,32 @@ matplotlib.pyplot is a collection of functions that make matplotlib work like MA
 
 "autopct" in pyplot pie chart enables you to display the percent value using Python string formatting. autopct='%.1f%%' prints all the numbers before decimal point, then the decimal point, then one floating number and finally prints a percentage (%) by inserting two modulo signs after the formatter.
 
+ASCII color codes at the beginning of the print statement can be used to change the color, as an example '\033[91m' for RED and '\033[94m' for BLUE and '\033[92m' for GREEN.
+
+Tokenization is a way of separating a piece of text into smaller units called tokens. Here, tokens can be either words, characters, or subwords. Hence, tokenization can be broadly classified into 3 types – word, character, and subword (n-gram characters) tokenization. For example, consider the sentence: “Never give up”. The most common way of forming tokens is based on space. Assuming space as a delimiter, the tokenization of the sentence results in 3 tokens – Never-give-up. As each token is a word, it becomes an example of Word tokenization. Similarly, tokens can be either characters or subwords. For example, let us consider “smarter”:
+1. Character tokens: s-m-a-r-t-e-r
+2. Subword tokens: smart-er
+
+Download anything from NLTK by the method nltk.download('')
+
+import re => for RegEx (Regular Expression) in python. A Regular Expression (RegEx) is a sequence of characters that defines a search pattern. For example, ^a...s$ => The mentioned code defines a RegEx pattern. The pattern is: any five letter string starting with a and ending with s.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
