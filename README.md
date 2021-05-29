@@ -11,6 +11,8 @@ In word frequency analysis in a corpus, there will be a dictionary mapping where
 
 Instead of learning V dimensions of features, we can just learn 3 dimensions of features and that is in the form of [The first feature would be a bias unit equal to 1, The second is the sum of the positive frequencies for every unique word on tweet m, The third is the sum of negative frequencies for every unique word on the tweet]
 
+Each tweet out of m tweets has a collection or summation of positive frequencies and negative frequencies corresponding to all the unique words appeared in the tweet.
+
 Stop words - Words that don't add significant meaning to the tweet/sentence/corpus. Stop words should be eliminated.
 
 Stemming - Stemming is basically removing the suffix from a word and reduce it to its root word. For example: “Flying” is a word and its suffix is “ing”, if we remove “ing” from “Flying” then we will get base word or root word which is “Fly”. We uses these suffix to create a new word from original stem word. Another definition, Stemming in NLP is simply transforming any word to its base stem, which you could define as the set of characters that are used to construct the word and its derivatives. Example: sitting -> sitt -> sit.
