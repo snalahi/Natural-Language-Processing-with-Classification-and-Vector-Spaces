@@ -9,7 +9,7 @@ Corpus - A collection of written texts, especially the entire works of a particu
 
 In word frequency analysis in a corpus, there will be a dictionary mapping where each word along with its class (positive(1)/negative(2)) will be mapped to its frequency (number of appearance).
 
-Instead of learning V dimensions of features, we can just learn 3 dimensions of features and that is in the form of [bias(1), sum of positive frequencies, sum of negative frequencies]
+Instead of learning V dimensions of features, we can just learn 3 dimensions of features and that is in the form of [The first feature would be a bias unit equal to 1, The second is the sum of the positive frequencies for every unique word on tweet m, The third is the sum of negative frequencies for every unique word on the tweet]
 
 Stop words - Words that don't add significant meaning to the tweet/sentence/corpus. Stop words should be eliminated.
 
@@ -37,6 +37,8 @@ Tokenization is a way of separating a piece of text into smaller units called to
 Download anything from NLTK by the method nltk.download('')
 
 import re => for RegEx (Regular Expression) in python. A Regular Expression (RegEx) is a sequence of characters that defines a search pattern. For example, ^a...s$ => The mentioned code defines a RegEx pattern. The pattern is: any five letter string starting with a and ending with s.
+
+Number of columns = Number of dimensions in a Matrix
 
 
 
